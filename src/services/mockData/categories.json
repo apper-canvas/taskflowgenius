@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Business",
+    "color": "#5B21B6",
+    "icon": "Briefcase",
+    "taskCount": 2,
+    "order": 0
+  },
+  {
+    "id": "2",
+    "name": "Development",
+    "color": "#3B82F6",
+    "icon": "Code",
+    "taskCount": 2,
+    "order": 1
+  },
+  {
+    "id": "3",
+    "name": "Meetings",
+    "color": "#10B981",
+    "icon": "Users",
+    "taskCount": 1,
+    "order": 2
+  },
+  {
+    "id": "4",
+    "name": "Personal",
+    "color": "#F59E0B",
+    "icon": "User",
+    "taskCount": 0,
+    "order": 3
+  }
+]
