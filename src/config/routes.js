@@ -1,10 +1,10 @@
-import Home from '../pages/Home';
-import Today from '../pages/Today';
-import Upcoming from '../pages/Upcoming';
-import AllTasks from '../pages/AllTasks';
-import Categories from '../pages/Categories';
-import Archive from '../pages/Archive';
-import NotFound from '../pages/NotFound';
+import HomePage from '@/components/pages/HomePage';
+import TodayPage from '@/components/pages/TodayPage';
+import UpcomingPage from '@/components/pages/UpcomingPage';
+import AllTasksPage from '@/components/pages/AllTasksPage';
+import CategoriesPage from '@/components/pages/CategoriesPage';
+import ArchivePage from '@/components/pages/ArchivePage';
+import NotFoundPage from '@/components/pages/NotFoundPage';
 
 export const routes = {
   home: {
@@ -12,49 +12,49 @@ export const routes = {
     label: 'Home',
     path: '/',
     icon: 'Home',
-    component: Home
+component: HomePage
   },
   today: {
     id: 'today',
     label: 'Today',
     path: '/today',
     icon: 'Calendar',
-    component: Today
+component: TodayPage
   },
   upcoming: {
     id: 'upcoming',
     label: 'Upcoming',
     path: '/upcoming',
     icon: 'Clock',
-    component: Upcoming
+component: UpcomingPage
   },
   all: {
     id: 'all',
     label: 'All Tasks',
     path: '/all',
     icon: 'List',
-    component: AllTasks
+component: AllTasksPage
   },
   categories: {
     id: 'categories',
     label: 'Categories',
     path: '/categories',
     icon: 'Tag',
-    component: Categories
+component: CategoriesPage
   },
   archive: {
     id: 'archive',
     label: 'Archive',
     path: '/archive',
     icon: 'Archive',
-    component: Archive
+component: ArchivePage
   },
   notFound: {
     id: 'notFound',
     label: 'Not Found',
     path: '*',
     icon: 'AlertCircle',
-    component: NotFound
+component: NotFoundPage
   }
 };
 
