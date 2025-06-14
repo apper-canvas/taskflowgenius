@@ -285,7 +285,4 @@ class TaskService {
     };
   }
 }
-
-export default new TaskService();
-
 export default new TaskService();
